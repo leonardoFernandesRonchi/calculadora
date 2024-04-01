@@ -1,0 +1,101 @@
+/* calculadora.css */
+
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  background-color: #222222;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #f2f2f2;
+}
+
+main {
+  max-width: 360px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 20px;
+  border-radius: 1rem;
+}
+
+header {
+  margin-bottom: 1.25rem;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+#themeSwitcher {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: #333;
+}
+
+button.charKey {
+  position: relative;
+}
+
+button.charKey:hover {
+  background-color: #ddd;
+  color: #000000;
+}
+
+section {
+  margin-top: 20px;
+}
+
+#copyToClipboard {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="text"][disabled] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: #333;
+}
